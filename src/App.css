@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(https://wallpapercave.com/wp/8juvAu0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+height: 500px;
+width: 500px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+backdrop-filter: blur(10px);
+gap: 20px;
+border: solid 1px black;
+}
+
+.info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.weather_icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    gap: -20px;
+}
+.data_weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+    gap: 5px;
+}
+
+h1, h3{
+    color: green;
+}
+
+button{
+    border: none;
+    background-color: gray;
+    height: 20px;
+    width: 25%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+.grades{
+    margin-top: -20px;
+    
+}
+
+button:hover{
+    color: gray;
+    background-color: black;
+    width: 30%;
+    height: 25px;
+}
